@@ -7,7 +7,7 @@
 }
 
 .cet button{
-    width: 100%;
+    width: 95%;
     height: 65px;
     display: flex;
     justify-content: center;
@@ -17,6 +17,11 @@
     margin: 5px 10px 5px 0;
     font-size: 18px;
     padding-top: 20px;
+    border: 1px solid #f7f7f8;
+    background-color: #f7f7f8 !important;
+}
+.cet button:hover{
+    color: #64b496;
 }
 
 .picm{
@@ -27,4 +32,121 @@
 .flex{
     display: flex;
     justify-content: center;
+}
+
+.ih{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.price{
+    font-size: 18px;
+    color: #64b496;
+    font-weight: 700;
+}
+
+.rprice{
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.btncenter{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    top: -120px;
+}
+
+.tn{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 26px;
+}
+
+.btncenter button{
+    padding: 0 10px 0 10px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    background-color: #64b496;
+    border: 1px solid #64b496;
+}
+
+.btncolour{
+    color: #64b496;
+    text-decoration: underline;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.ut{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.big{
+    font-size: 55px;
+    font-weight: 700;
+}
+.carousel-caption{
+    position: absolute;
+    top : 25%;
+    left: 50px;
+}
+
+.opa img:hover{
+    opacity: 75%;
+}
+
+.sec3{
+    top: 60px;
+    left: 25px;
+}
+.sec3 button{
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    background-color: #64b496;
+    color: white;
+    font-weight: 500;
+    height: 35px;
+    border: 1px solid #64b496;
+}
+
+.sec3 h5{
+    font-weight: 600;
+}
+
+.sec3 p{
+    color: grey !important;
+}
+.sec3 p span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cs{
+    background-color: #f7f7f8;
+    margin: 1px;
+}
+.cs span{
+    color: #64b496;
+    font-size: 50px;
+}
+
+.sec4main{
+    background-image: url("https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/deal/bg-deal.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+.sec4{
+    width: 100%;
 }

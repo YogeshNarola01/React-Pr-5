@@ -8,15 +8,16 @@ const Slider = () => {
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={1} aria-label="Slide 2" />
   </div>
-  <div className="carousel-inner" >
+  <div className="carousel-inner pb-5" >
     <div>
-      <div className="carousel-item active">
+      <div className="carousel-item active position-relative">
         <img src="https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/banner/banner-2.jpg" className="d-block w-100" alt="..." />
         <div>
-          <div class="col-4 carousel-caption d-none d-md-block">
-            <h1 class="text-dark">Explore fresh & juicy fruits.</h1>
-            <p class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis beatae consequuntur.</p>
-            <button type="button" class="btn btn-success">Shop Now</button>
+          <div class="col-4 p-5 carousel-caption d-none d-md-block">
+            <p className='text-dark ut text-start'><span className='btncolour'>100%</span>Organic Vegetables</p>
+            <h1 class="text-dark big text-start">Explore fresh & <br></br>juicy fruits.</h1>
+            <p class="text-body-secondary text-start pe-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis beatae consequuntur.</p>
+            <div className='text-start'><button type="button" class="btn btn-success">Shop Now</button></div>
           </div>
         </div>
       </div>
@@ -25,9 +26,10 @@ const Slider = () => {
       <div className="carousel-item">
         <img src="https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/banner/banner.jpg" className="d-block w-100" alt="..." />
         <div class="col-4 carousel-caption d-none d-md-block">
-          <h1 class="text-dark">The best way to stuff your wallet.</h1>
-          <p class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis beatae consequuntur.</p>
-          <button type="button" class="btn btn-success">Shop Now</button>
+        <p className='text-dark ut text-start'><span className='btncolour'>100%</span>Organic Vegetables</p>
+          <h1 class="text-dark big text-start">The best way to <br></br>stuff your wallet.</h1>
+          <p class="text-body-secondary text-start pe-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis beatae consequuntur.</p>
+          <div className='text-start'><button type="button" class="btn btn-success">Shop Now</button></div>
         </div>
       </div>
     </div>
