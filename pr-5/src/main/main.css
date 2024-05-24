@@ -150,3 +150,77 @@
 .sec4{
     width: 100%;
 }
+ 
+.footer{
+    background-color: #f7f7f8;
+    color: #777777;
+    padding: 60px 0 20px 0;
+    border: 2px solid #f7f7f8;
+}
+
+.footercol span{
+    font-size: 22px;
+    color: #64b496;
+}
+.footercol h6{
+    font-size: 15px;
+    font-weight: 400;
+}
+.footercol span p{
+    color: #777777;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.footercol span p:hover{
+    color: #64b496;
+}
+
+.footercol2 span a{
+    text-decoration: none;
+    color: #777777;
+    line-height: 35px;
+}
+.footercol2 span a:hover{
+    color: #64b496;
+}
+.fc{
+    color: #000000;
+}
+.fi{
+    padding: 5px 20px 5px 20px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.soc span{
+    font-size: 21px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0 5px;
+    margin: 5px;
+    background-color: white;
+}
+.soc span a{
+    color: #777777;
+}
+.soc span a:hover{
+    color: #64b496;
+}
+.fimg img{
+    display: block;
+    width: 75px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.fimg img:hover{
+    opacity: 55%;
+}
+
+.footer .flex{
+    color: #000000;
+}
+.footer .flex span{
+    color: #64b496;
+}

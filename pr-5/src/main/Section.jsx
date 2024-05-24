@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { category, data, category2, data2 } from "../data";
-import { useState } from "react";
+import { useState} from "react";
 import { RiMoneyDollarBoxLine } from "react-icons/ri";
 import { RiShoppingBag3Line } from "react-icons/ri";
 import { BiSupport } from "react-icons/bi";
@@ -15,6 +15,18 @@ const Section = () => {
     let datas = data.filter(val => val.category === item);
     setRecord(datas);
   };
+
+
+useEffect(()=>{
+    let all = []
+    record.map((val,i)=>{
+        if(i<=1){
+        all.push(val)
+        }
+    })
+    setRecord(all)
+  },[])
+
 
   const FilterData2 = item => {
     let datas2 = data2.filter(val => val.category === item);
@@ -204,19 +216,12 @@ const Section = () => {
         <div className="container">
           <div className="d-flex flex-wrap col-4">
             <div className="sec4">
-            <h1 id="headline">Countdown to my birthday</h1>
-                <div id="countdown">
-                    <ul>
-                    <li><span id="days"></span>days</li>
-                    <li><span id="hours"></span>Hours</li>
-                    <li><span id="minutes"></span>Minutes</li>
-                    <li><span id="seconds"></span>Seconds</li>
-                    </ul>
-                </div>
+            
             </div>
           </div>    
         </div>
       </div>
+      
     </div>
   );
 };
