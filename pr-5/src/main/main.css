@@ -20,6 +20,49 @@
     border: 1px solid #f7f7f8;
     background-color: #f7f7f8 !important;
 }
+.header{
+    margin: 15px 0; 
+}
+
+.hi{
+    width: 100%;
+    border: 1px solid #64b496;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hi input{
+    width: 75%;
+    border-radius: 5px;
+    padding: 0 15px;
+    border: none;
+    border-right: 1px solid #64b496 !important;
+    font-size: 15px;
+}
+
+.hicon{
+    background-color:#64b496;
+    padding: 7px 11px 7px 11px;
+    color: white;
+}
+
+.hd span{
+    color: #000000;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.hd span:hover{
+    color: #64b496;
+}
+
+.header2 .h2i{
+    font-size: 22px;
+}
+.header2 .h2div div{
+    margin: 0 10px;
+}
+
+
 .cet button:hover{
     color: #64b496;
 }
@@ -151,6 +194,123 @@
     width: 100%;
 }
  
+.watch{
+    background: #ffffff38;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.watch h6 span{
+    font-size: 24px;
+    font-weight:600;
+    color: #64b496;
+    margin-right: 10px;
+}
+
+.watch h3{
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.watch p{
+    font-size: 14px;
+    color: #777777;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+.swiper {
+    padding: 20px 0;
+    width: 100%;
+    max-width: 1280px;
+    height: 400px;
+    margin-top: 40px;
+  }
+  .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .seci img{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+  }
+.star{
+    color: #f5885f;
+}
+.sec6i{
+    width: 100%;
+    height: 100%;
+}
+.testi{
+    border: 1px solid grey;
+    background-color: #f7f7f8;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    margin: 5px;
+}
+.testi img{
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 40%;
+}
+.testi p{
+    font-size: 15px;
+    line-height: 20px !important;
+    color: #777777;
+}
+
+.sec7 h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.sec7 p{
+    font-size: 15px;
+    color: #777777;
+    line-height: 5px;
+}
+
+
+
+.sec5swip span{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sec5swip span p{
+    font-weight: 300;
+    margin-left: 5px;
+}
+.sec5swip h5{
+    font-weight: 600;
+}
+.sec5swip a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #64b496;
+    list-style: none;
+    text-decoration: none;
+}
+.card img:hover{
+    opacity: 75%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sec5-1 p{
+    line-height: 5px;
+    font-size: 15px;
+    color: #777777;
+}
 .footer{
     background-color: #f7f7f8;
     color: #777777;
@@ -192,6 +352,7 @@
     background-color: rgb(255, 255, 255);
     border: 1px solid grey;
     border-radius: 5px;
+    margin: 10px 0;
 }
 
 .soc span{
@@ -203,7 +364,7 @@
     background-color: white;
 }
 .soc span a{
-    color: #777777;
+    color: #000000;
 }
 .soc span a:hover{
     color: #64b496;

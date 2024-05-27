@@ -1,3 +1,6 @@
+import { BiSolidStar } from "react-icons/bi";
+import { BiStar } from "react-icons/bi";
+
 const category = [
     {id : 1, name : 'Cake & Milk',pis : "65 item"},
     {id : 2, name : 'Fresh Meat',pis : "30 item"},
@@ -85,6 +88,7 @@ const data = [
 
 
 const category2 = [
+    {id : "0", name : "All"},
     {id : "1", name : "Snack"},
     {id : "2", name : "Vegitable"},
     {id : "3", name : "Fruit"},
@@ -96,6 +100,7 @@ const data2 = [
         id : '1',
         img : 'https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product/1.jpg',
         name : 'Fresh organic villa farm lomon',
+        star : [<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiStar />],
         category : 'Vegitable',
         price : '120',
         rprice : '123.25'
@@ -104,6 +109,7 @@ const data2 = [
         id : '2',
         img : 'https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product/9.jpg',
         name : 'Best snakes with hazel nut pack',
+        star : [<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />],
         category : 'Snack',
         price : '145',
         rprice : '150'
@@ -111,6 +117,7 @@ const data2 = [
         id : '3',
         img : 'https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product/2.jpg',
         name : 'Fresh organic apple 1kg simla',
+        star : [<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiStar />],
         category : 'Fruit',
         price : '120',
         rprice : '123.25'
@@ -118,6 +125,7 @@ const data2 = [
         id : '4',
         img : 'https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product/17.jpg',
         name : 'Delicious white baked fresh bread',
+        star : [<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />],
         category : 'Bakery',
         price : '20',
         rprice : '22.10'
@@ -125,6 +133,7 @@ const data2 = [
         id : '5',
         img : 'https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product/11.jpg',
         name : 'Sweet crunchy nut mix 250gm pack',
+        star : [<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />],
         category : 'Snack',
         price : '120',
         rprice : '123.25'
@@ -132,6 +141,7 @@ const data2 = [
         id : '6',
         img : 'https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product/3.jpg',
         name : 'Organic fresh venila farm watermelon 5kg',
+        star : [<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiStar />,<BiStar />],
         category : 'Fruit',
         price : '120',
         rprice : '123.25'
@@ -139,6 +149,7 @@ const data2 = [
         id : '7',
         img : 'https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product/10.jpg',
         name : 'Sweet crunchy nut mix 250gm pack',
+        star : [<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />],
         category : 'Snack',
         price : '120.25',
         rprice : '123.25'
@@ -146,6 +157,7 @@ const data2 = [
         id : '8',
         img : 'https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product/17.jpg',
         name : 'Delicious white baked fresh bread',
+        star : [<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />,<BiSolidStar />],
         category : 'Bakery',
         price : '20',
         rprice : '22.10'
